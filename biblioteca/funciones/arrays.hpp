@@ -1,0 +1,54 @@
+#ifndef _TARRAYST
+#define _TARRAYST
+
+#include <iostream>
+
+template <typename T>
+int add(T arr[],int& len,T e){
+   arr[len]=e;
+      len++;
+      return len-1;
+}
+
+template <typename T>
+void insert(T arr[],int& len,T e,int p)
+{
+
+}
+
+template <typename T>
+T remove(T arr[],int& len,int p)
+{
+   T ret;
+
+   return ret;
+}
+
+/*template <typename T, typename K>
+int find(T arr[],int len,K k,int cmpTK(T,K))
+{
+
+
+   return ;
+}
+
+template <typename T>
+void sort(T arr[],int len,int cmpTT(T,T))
+{
+
+
+   return;
+}
+
+template <typename T>
+int orderedInsert(T arr[],int& len,T e,int cmpTT(T,T))
+{
+
+   return ;
+}
+
+
+
+
+*/
+#endif

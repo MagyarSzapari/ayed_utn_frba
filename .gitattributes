@@ -1,0 +1,9 @@
+# Normaliza fines de línea en el repositorio (LF) y respeta el del sistema al hacer checkout.
+* text=auto
+*.cpp text
+*.hpp text
+*.md  text
+# Archivos de datos de los ejercicios de archivos binarios
+*.zzz binary
+*.x   binary
+*.dat binary

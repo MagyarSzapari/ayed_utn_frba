@@ -1,0 +1,39 @@
+# Artefactos de compilación
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.tds
+*.map
+bin/
+obj/
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# IDEs (Code::Blocks, Eclipse CDT, VS Code, CLion)
+*.cbp
+*.layout
+*.depend
+.project
+.cproject
+.settings/
+RemoteSystemsTempFiles/
+.vscode/
+.idea/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Marca local de organizar_cursada.py (habilita --limpiar)
+.generado_por_organizar_cursada
